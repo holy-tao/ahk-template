@@ -42,6 +42,3 @@ jobs:
           report_paths: tests/junit.xml
           token: ${{ secrets.GITHUB_TOKEN }}
           check_name: Test Results (${{ matrix.exe }} - ${{ matrix.version }})
-          detailed_summary: true
-          include_time_in_summary: true
-          include_passed: true
